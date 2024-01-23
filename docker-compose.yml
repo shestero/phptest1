@@ -32,6 +32,7 @@ services:
       - -c
       - |
         docker-php-ext-install mysqli
+        docker-php-ext-enable mysqli
         echo "MySQLi extension installed..."
         exec docker-php-entrypoint apache2-foreground
     stdin_open: true
