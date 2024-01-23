@@ -1,0 +1,5 @@
+curl -s http://localhost:8080/?user_id=1|jq -r ".payload.balance"
+curl -s http://localhost:8080/?user_id=2|jq -r ".payload.balance"
+curl -s http://localhost:8080/?user_id=10|jq -r ".payload.balance"
+curl -s http://localhost:8080/?user_id=11|jq -r ".payload.balance"
+curl -s http://localhost:8080/?user_id=12|jq -r ".payload.balance"
